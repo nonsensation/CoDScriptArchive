@@ -1,1 +1,27 @@
+name: :3li, nonsensation
+baseurl: ""
+
+plugins:
+  - jekyll-gist
+  - jekyll-optional-front-matter
+  - jekyll-sitemap
+  - jekyll-remote-theme
+  
 remote_theme: nonsensation/nonsensation.github.io
+permalink: /:title
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+
+kramdown:
+  auto_ids: true
+  syntax_highlighter_opts:
+    default_lang: text
