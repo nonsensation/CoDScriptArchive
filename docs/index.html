@@ -1,0 +1,14 @@
+---
+layout: default
+title: CoD Script Archive
+---
+<section>
+  {% for post in site.posts %}
+    <article>
+    	<header>
+    	      <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
+    	</header>
+  		<p>{{ post.excerpt }}</p>
+    </article>
+  {% endfor %}
+</section>
