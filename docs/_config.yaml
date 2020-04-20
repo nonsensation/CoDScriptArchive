@@ -7,7 +7,7 @@ plugins:
   - jekyll-sitemap
   - jekyll-remote-theme
   
-remote_theme: nonsensation/nonsensation.github.io
+remote_theme: nonsensation/website-jekyll
 permalink: /:title
 
 defaults:
